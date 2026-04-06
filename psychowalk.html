@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Psycho Walk</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('assets/gotasdelluvia.gif');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6); 
+            background-blend-mode: darken;
+        }
+
+        .psycho-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .psycho-img {
+            width: 80%;
+            max-width: 400px;
+            border-radius: 50%;
+            border: 4px solid #000000;
+            box-shadow: 0 0 35px #000000, 0 0 15px rgba(0, 0, 0, 0.7);
+        }
+
+        .psycho-text {
+            color: #ffffff;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-shadow: 0 0 10px #ffcc00; 
+            max-width: 500px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="btn home-btn">🏠 Inicio</a>
+
+    <audio autoplay loop>
+        <source src="assets/ioviendo.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="psycho-container">
+        <img src="assets/psycho.gif" alt="Psycho Walk" class="psycho-img">
+
+        <p class="psycho-text">
+            Sientes cómo la noche te envuelve. Las gotas golpean tu rostro y la música es lo único real...
+        </p>
+
+        <a href="tienda.html" class="btn">Llegar a la tienda</a>
+    </div>
+
+</body>
+</html>
