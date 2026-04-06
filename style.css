@@ -70,3 +70,10 @@ p {
     background-color: #ffcc00;
     color: #050a14;
 }
+
+@media (max-width: 600px) {
+    .calle.png {
+        background-color: #050a14;
+        font-size: 16em;
+    }
+}
